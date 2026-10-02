@@ -17,7 +17,7 @@ export const ASSETS = {
     sahaAi: '/assets/images/projects/saha-ai-platform.png',
   },
   services: {
-    webDesign: '/assets/images/services/web-design.svg',
+    webDesign: '/assets/images/services/web-design.jpg',
     frontend: '/assets/images/services/frontend-dev.svg',
     backend: '/assets/images/services/backend-dev.svg',
     uiux: '/assets/images/services/ui-ux.svg',
