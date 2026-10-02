@@ -55,15 +55,12 @@ export const Services: React.FC = () => {
 
                   {/* Service Visual Preview */}
                   <div className={`lg:col-span-6 ${isEven ? 'lg:order-2' : 'lg:order-1'}`}>
-                    <div className="rounded-2xl overflow-hidden border border-violet-500/20 bg-[#140C44] p-3 shadow-xl group">
-                      <div className="aspect-[16/10] rounded-xl overflow-hidden relative">
-                        <img
-                          src={service.imageUrl}
-                          alt={`${service.title} capability preview`}
-                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                        />
-                        <div className="absolute inset-0 bg-violet-950/20 pointer-events-none" />
-                      </div>
+                    <div className="rounded-2xl overflow-hidden relative aspect-[16/10] shadow-2xl group border border-violet-500/20">
+                      <img
+                        src={service.imageUrl}
+                        alt={`${service.title} capability preview`}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      />
                     </div>
                   </div>
                 </div>
