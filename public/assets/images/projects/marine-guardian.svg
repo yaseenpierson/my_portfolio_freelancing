@@ -1,0 +1,18 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#0A0F24" rx="12"/>
+  <rect x="2" y="2" width="796" height="496" rx="10" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="2"/>
+  
+  <g transform="translate(150, 60)">
+    <rect x="0" y="0" width="500" height="360" rx="16" fill="#0F172A" stroke="#7C3AED" stroke-width="2"/>
+    <!-- Radar Waves & Vessel Monitoring Dashboard -->
+    <circle cx="250" cy="180" r="120" stroke="#38BDF8" stroke-width="2" opacity="0.3" fill="none"/>
+    <circle cx="250" cy="180" r="80" stroke="#38BDF8" stroke-width="2" opacity="0.5" fill="none"/>
+    <circle cx="250" cy="180" r="40" stroke="#38BDF8" stroke-width="2" opacity="0.8" fill="none"/>
+    <line x1="130" y1="180" x2="370" y2="180" stroke="#38BDF8" opacity="0.4"/>
+    <line x1="250" y1="60" x2="250" y2="300" stroke="#38BDF8" opacity="0.4"/>
+    <circle cx="290" cy="140" r="6" fill="#F43F5E"/>
+    <circle cx="210" cy="210" r="6" fill="#34D399"/>
+    
+    <text x="250" y="40" font-family="sans-serif" font-weight="bold" font-size="18" fill="#F8FAFC" text-anchor="middle">MARINE GUARDIAN SYSTEM</text>
+  </g>
+</svg>

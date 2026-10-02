@@ -1,0 +1,38 @@
+<svg width="600" height="700" viewBox="0 0 600 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="700" rx="16" fill="#180F4A"/>
+  <rect x="2" y="2" width="596" height="696" rx="14" stroke="#7C3AED" stroke-opacity="0.3" stroke-width="2"/>
+  
+  <defs>
+    <linearGradient id="profileGrad" x1="0" y1="0" x2="600" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E1065"/>
+      <stop offset="0.5" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#0F0D2E"/>
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="100" y1="100" x2="500" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="700" rx="16" fill="url(#profileGrad)"/>
+  <circle cx="300" cy="280" r="140" fill="url(#accentGlow)"/>
+
+  <!-- Stylized Developer Silhouette & ECE Circuit Motif -->
+  <g transform="translate(150, 150)">
+    <!-- Circuit Overlay -->
+    <path d="M-50 150 L50 150 L100 200 L250 200" stroke="#8B5CF6" stroke-width="2" opacity="0.4" stroke-dasharray="6 6"/>
+    <path d="M350 100 L280 100 L240 160 L100 160" stroke="#A78BFA" stroke-width="2" opacity="0.4"/>
+    
+    <!-- User Avatar Silhouette -->
+    <circle cx="150" cy="110" r="70" fill="#3B0764" stroke="#A78BFA" stroke-width="3"/>
+    <path d="M50 320 C50 220, 100 200, 150 200 C200 200, 250 220, 250 320 Z" fill="#3B0764" stroke="#A78BFA" stroke-width="3"/>
+    
+    <!-- Code / Hardware Icon Overlay -->
+    <rect x="100" y="240" width="100" height="50" rx="8" fill="#1E1B4B" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="150" y="270" font-family="monospace" font-size="14" fill="#C4B5FD" text-anchor="middle" font-weight="bold">&lt;YASEEN /&gt;</text>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="40" y="600" width="220" height="40" rx="20" fill="#2E1065" stroke="#A78BFA" stroke-opacity="0.5"/>
+  <text x="150" y="625" font-family="sans-serif" font-size="13" font-weight="600" fill="#DDD6FE" text-anchor="middle">ECE &amp; Web Developer</text>
+</svg>
