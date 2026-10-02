@@ -20,7 +20,6 @@ export const ASSETS = {
     webDesign: '/assets/images/services/web-design.jpg',
     frontend: '/assets/images/services/frontend-dev.svg',
     backend: '/assets/images/services/backend-dev.svg',
-    uiux: '/assets/images/services/ui-ux.svg',
     technical: '/assets/images/services/technical-projects.svg',
   },
 };

@@ -42,21 +42,8 @@ export const servicesData: Service[] = [
     imageUrl: ASSETS.services.backend,
   },
   {
-    id: 'ui-ux',
-    number: '04',
-    title: 'UI / UX',
-    description: 'Designing clear, accessible interfaces and user experiences with thoughtful interaction and visual hierarchy.',
-    capabilities: [
-      'User Flow & Information Architecture',
-      'Interactive Micro-Interactions',
-      'Design System Components',
-      'Usability & Accessibility (WCAG)',
-    ],
-    imageUrl: ASSETS.services.uiux,
-  },
-  {
     id: 'technical-projects',
-    number: '05',
+    number: '04',
     title: 'TECHNICAL / CREATIVE PROJECTS',
     description: 'Building experimental projects across electronics, embedded systems, robotics, AI, and software.',
     capabilities: [
