@@ -19,7 +19,7 @@ export const ASSETS = {
   services: {
     webDesign: '/assets/images/services/web-design.jpg',
     frontend: '/assets/images/services/frontend-dev.jpg',
-    backend: '/assets/images/services/backend-dev.svg',
+    backend: '/assets/images/services/backend-dev.jpg',
     technical: '/assets/images/services/technical-projects.svg',
   },
 };
