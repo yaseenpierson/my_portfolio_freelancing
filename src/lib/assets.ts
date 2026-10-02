@@ -9,7 +9,7 @@ export const ASSETS = {
     bg: '/assets/images/hero/hero-bg.svg',
   },
   profile: {
-    avatar: '/assets/images/profile/yaseen-profile.svg',
+    avatar: '/assets/images/profile/yaseen-profile.jpg',
   },
   projects: {
     tataMobile: '/assets/images/projects/tata-mobile.svg',

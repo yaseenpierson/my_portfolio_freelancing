@@ -17,13 +17,13 @@ export const About: React.FC = () => {
             className="lg:col-span-5 relative"
           >
             <div className="relative rounded-2xl overflow-hidden border border-violet-500/30 bg-[#140C44] shadow-2xl p-3 group">
-              <div className="aspect-[4/5] rounded-xl overflow-hidden relative">
+              <div className="aspect-square rounded-xl overflow-hidden relative">
                 <img
                   src={ASSETS.profile.avatar}
                   alt="Yaseen - Web Developer & ECE Student Profile"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0D0733] via-transparent to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0D0733]/40 via-transparent to-transparent opacity-40 pointer-events-none" />
               </div>
               <div className="p-4 flex items-center justify-between text-xs text-slate-300">
                 <span className="font-semibold tracking-wider text-violet-400 uppercase">Yaseen</span>
