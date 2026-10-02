@@ -14,8 +14,7 @@ export const ASSETS = {
   projects: {
     tataMobile: '/assets/images/projects/tata-mobile.svg',
     roboBin: '/assets/images/projects/robo-bin.svg',
-    marineGuardian: '/assets/images/projects/marine-guardian.svg',
-    ecommerce: '/assets/images/projects/ecommerce-redesign.svg',
+    sahaAi: '/assets/images/projects/saha-ai-platform.svg',
   },
   services: {
     webDesign: '/assets/images/services/web-design.svg',

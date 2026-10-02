@@ -81,31 +81,33 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
 
           {/* Action Links */}
-          <div className="flex items-center gap-4 pt-4 border-t border-violet-900/30">
-            {project.demoUrl && (
-              <a
-                href={project.demoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-semibold text-violet-400 hover:text-white transition-colors"
-              >
-                <span>Live Preview</span>
-                <ExternalLink size={16} />
-              </a>
-            )}
+          {(project.demoUrl || project.githubUrl) && (
+            <div className="flex items-center gap-4 pt-4 border-t border-violet-900/30">
+              {project.demoUrl && (
+                <a
+                  href={project.demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-violet-400 hover:text-white transition-colors"
+                >
+                  <span>Live Preview</span>
+                  <ExternalLink size={16} />
+                </a>
+              )}
 
-            {project.githubUrl && (
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-semibold text-slate-400 hover:text-white transition-colors"
-              >
-                <Github size={16} />
-                <span>Source Code</span>
-              </a>
-            )}
-          </div>
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-slate-400 hover:text-white transition-colors"
+                >
+                  <Github size={16} />
+                  <span>Source Code</span>
+                </a>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </motion.div>
