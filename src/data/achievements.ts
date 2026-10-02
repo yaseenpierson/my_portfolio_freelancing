@@ -3,10 +3,10 @@ import { Achievement } from '@/types';
 export const achievementsData: Achievement[] = [
   {
     id: 'achieve-1',
-    title: 'IEDC Innovation Project Grant',
+    title: 'SRISHTI 2025',
     category: 'Innovation / IEDC',
-    organization: 'Innovation and Entrepreneurship Development Centre',
-    date: '2024',
+    organization: 'Innovation and Entrepreneurship Development Centre (IEDC)',
+    date: '2025',
     description: 'Selected for prototype development grant for ROBO-BIN autonomous waste management device.',
     highlight: 'Grants & Funding',
   },

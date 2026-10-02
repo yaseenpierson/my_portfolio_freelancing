@@ -19,6 +19,7 @@ export const ASSETS = {
   services: {
     webDesign: '/assets/images/services/web-design.svg',
     frontend: '/assets/images/services/frontend-dev.svg',
+    backend: '/assets/images/services/backend-dev.svg',
     uiux: '/assets/images/services/ui-ux.svg',
     technical: '/assets/images/services/technical-projects.svg',
   },
