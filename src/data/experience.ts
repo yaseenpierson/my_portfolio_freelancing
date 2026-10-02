@@ -1,4 +1,5 @@
 import { Experience, SocialLink } from '@/types';
+import { SITE_CONFIG } from './config';
 
 export const experienceData: Experience[] = [
   {
@@ -35,7 +36,7 @@ export const socialLinksData: SocialLink[] = [
   {
     id: 'email',
     platform: 'Email',
-    url: 'mailto:yaseen@example.com',
+    url: `mailto:${SITE_CONFIG.email}`,
     iconName: 'Mail',
     label: 'Email Yaseen',
   },

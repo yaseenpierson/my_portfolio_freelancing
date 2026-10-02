@@ -4,6 +4,7 @@ import { ArrowUpRight, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { SocialLinks } from '@/components/ui/SocialLinks';
 import { ASSETS } from '@/lib/assets';
+import { SITE_CONFIG } from '@/data/config';
 
 export const ContactCTA: React.FC = () => {
   return (
@@ -62,8 +63,8 @@ export const ContactCTA: React.FC = () => {
           className="mt-8 inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#140C44] border border-violet-500/30 text-violet-200"
         >
           <Mail size={18} className="text-violet-400" />
-          <a href="mailto:yaseen@example.com" className="text-sm md:text-base font-medium hover:text-white transition-colors">
-            yaseen@example.com
+          <a href={`mailto:${SITE_CONFIG.email}`} className="text-sm md:text-base font-medium hover:text-white transition-colors">
+            {SITE_CONFIG.email}
           </a>
         </motion.div>
 
@@ -77,7 +78,7 @@ export const ContactCTA: React.FC = () => {
         >
           <Button
             asAnchor
-            href="mailto:yaseen@example.com"
+            href={`mailto:${SITE_CONFIG.email}`}
             variant="primary"
             size="lg"
             icon={<ArrowUpRight size={22} />}

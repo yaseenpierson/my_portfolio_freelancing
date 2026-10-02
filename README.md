@@ -34,16 +34,7 @@ npm run build
 ```
 
 ## Environment Variables
-Environment variables are managed safely via `src/lib/env.ts`. Copy `.env.example` to `.env` before running the project:
-
-```bash
-cp .env.example .env
-```
-
-Available variables:
-- `VITE_EMAIL_SERVICE_ID`
-- `VITE_EMAIL_TEMPLATE_ID`
-- `VITE_EMAIL_PUBLIC_KEY`
+Environment variables are managed safely via `src/lib/env.ts`. Only client-safe variables prefixed with `VITE_` are exposed to the browser.
 
 ## Architecture Overview
 ```
@@ -54,7 +45,7 @@ src/
 │   ├── layout/      # Layout, Header, Footer
 │   ├── sections/    # Page-specific feature sections
 │   └── ui/          # Primitives (Buttons, Cards, Inputs)
-├── data/            # Data models and initial data files
+├── data/            # Data models and initial data files (config.ts, projects.ts)
 ├── hooks/           # Custom React hooks
 ├── lib/             # Configuration & utility functions (env.ts)
 ├── pages/           # Page routes (Home, Projects, About, Contact)
