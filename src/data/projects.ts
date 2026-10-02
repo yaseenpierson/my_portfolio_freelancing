@@ -12,7 +12,7 @@ export const projectsData: Project[] = [
     imageUrl: ASSETS.projects.sahaAi,
     featured: true,
     category: 'web',
-    demoUrl: '',
+    demoUrl: 'https://saha-ai-wheat.vercel.app/',
     githubUrl: 'https://github.com/MaxonXOXO/SahaAI',
   },
   {

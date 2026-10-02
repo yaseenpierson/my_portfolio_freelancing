@@ -4,5 +4,5 @@
 export const SITE_CONFIG = {
   name: 'Yaseen',
   role: 'Freelance Web Designer & Developer',
-  email: 'YOUR_EMAIL_HERE',
+  email: 'muhammedyaseen.12.2005@gmail.com',
 };
