@@ -39,9 +39,9 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight text-white uppercase leading-[0.95] max-w-5xl"
         >
-          I DESIGN AND BUILD <br />
+          I DESIGN IT. I BUILD IT. <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-violet-200 to-violet-400">
-            DIGITAL EXPERIENCES.
+            I MAKE IT WORK.
           </span>
         </motion.h1>
 
