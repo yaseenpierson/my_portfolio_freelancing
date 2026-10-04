@@ -20,6 +20,13 @@ export const experienceData: Experience[] = [
 
 export const socialLinksData: SocialLink[] = [
   {
+    id: 'whatsapp',
+    platform: 'WhatsApp',
+    url: SITE_CONFIG.whatsapp,
+    iconName: 'Whatsapp',
+    label: 'WhatsApp Yaseen (+91 6238489864)',
+  },
+  {
     id: 'github',
     platform: 'GitHub',
     url: SITE_CONFIG.github,
