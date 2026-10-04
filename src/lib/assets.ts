@@ -12,14 +12,14 @@ export const ASSETS = {
     avatar: '/assets/images/profile/yaseen-profile.jpg',
   },
   projects: {
-    tataMobile: '/assets/images/projects/tata-mobile.svg',
-    roboBin: '/assets/images/projects/robo-bin.svg',
+    tataMobile: '/assets/images/projects/tata-mobile.jpg',
+    roboBin: '/assets/images/projects/robo-bin.jpg',
     sahaAi: '/assets/images/projects/saha-ai-platform.png',
   },
   services: {
     webDesign: '/assets/images/services/web-design.jpg',
     frontend: '/assets/images/services/frontend-dev.jpg',
     backend: '/assets/images/services/backend-dev.jpg',
-    technical: '/assets/images/services/technical-projects.svg',
+    technical: '/assets/images/services/technical-projects.jpg',
   },
 };

@@ -22,14 +22,14 @@ export const socialLinksData: SocialLink[] = [
   {
     id: 'github',
     platform: 'GitHub',
-    url: 'https://github.com',
+    url: SITE_CONFIG.github,
     iconName: 'Github',
     label: 'GitHub Profile',
   },
   {
     id: 'linkedin',
     platform: 'LinkedIn',
-    url: 'https://linkedin.com',
+    url: SITE_CONFIG.linkedin,
     iconName: 'Linkedin',
     label: 'LinkedIn Profile',
   },

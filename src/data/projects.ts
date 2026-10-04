@@ -40,5 +40,6 @@ export const projectsData: Project[] = [
     category: 'electronics',
     demoUrl: '',
     githubUrl: '',
+    docUrl: 'https://lnkd.in/p/giBvwkrt',
   },
 ];

@@ -20,6 +20,7 @@ export interface Project {
   imageUrl: string;
   demoUrl?: string;
   githubUrl?: string;
+  docUrl?: string;
   featured: boolean;
   category: 'web' | 'mobile' | 'electronics' | 'ui/ux';
   completedAt?: string;

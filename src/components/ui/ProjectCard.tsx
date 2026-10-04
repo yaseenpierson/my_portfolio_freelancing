@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Github, ExternalLink } from 'lucide-react';
+import { ArrowUpRight, Github, ExternalLink, FileText } from 'lucide-react';
 import { Project } from '@/types';
 
 interface ProjectCardProps {
@@ -81,8 +81,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
 
           {/* Action Links */}
-          {(project.demoUrl || project.githubUrl) && (
-            <div className="flex items-center gap-4 pt-4 border-t border-violet-900/30">
+          {(project.demoUrl || project.githubUrl || project.docUrl) && (
+            <div className="flex flex-wrap items-center gap-4 pt-4 border-t border-violet-900/30">
               {project.demoUrl && (
                 <a
                   href={project.demoUrl}
@@ -92,6 +92,18 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                 >
                   <span>Live Preview</span>
                   <ExternalLink size={16} />
+                </a>
+              )}
+
+              {project.docUrl && (
+                <a
+                  href={project.docUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-violet-400 hover:text-white transition-colors"
+                >
+                  <span>View Documentation</span>
+                  <FileText size={16} />
                 </a>
               )}
 
