@@ -10,6 +10,7 @@ interface ButtonProps extends HTMLMotionProps<'button'> {
   className?: string;
   asAnchor?: boolean;
   href?: string;
+  onClick?: (e: React.MouseEvent<any>) => void;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -49,12 +50,15 @@ export const Button: React.FC<ButtonProps> = ({
   );
 
   if (asAnchor && href) {
+    const { onClick, ...restProps } = props as any;
     return (
       <motion.a
         href={href}
+        onClick={onClick}
         whileHover={{ scale: 1.03 }}
         whileTap={{ scale: 0.97 }}
         className={combinedClasses}
+        {...restProps}
       >
         {content}
       </motion.a>

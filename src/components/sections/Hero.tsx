@@ -6,7 +6,7 @@ import { ASSETS } from '@/lib/assets';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-[#0D0733]">
+    <section id="top" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-[#0D0733]">
       {/* Background Graphic with Dark Purple Overlay */}
       <div className="absolute inset-0 z-0">
         <img
